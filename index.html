@@ -1,0 +1,354 @@
+﻿<html>
+    <head>
+
+        <title>The White Apron Events & Caterers</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="www.thewhiteapron.co.za" content=" ">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="css/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="css/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="css/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="assets/jquery-3.4.1.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        
+    <script type="text/javascript" language="javascript">
+        
+    $(document).ready(function() {
+
+        $("a#display_about").click(function() {
+
+            $("div#content").hide();
+            $("div#showContacts").hide();
+            $("div#showAbout").show();
+
+        });
+
+        $("button#getServices").click(function() {
+
+            $("div#visibleServices").hide();
+            $("div#def-button-more").hide();
+            $("button#lessServices").show();
+            $("div#showServices").show();
+            
+        });
+
+        $("button#lessServices").click(function() {
+
+            $("div#showServices").hide();
+            $("div#def-button-less").hide();
+            $("div#visibleServices").show();
+
+            $("div#def-button-more").show();
+            $("button#getServices").show();
+
+        });
+
+        $("a#display_contacts").click(function() {
+
+            $("div#content").hide();
+            $("div#showAbout").hide();
+            $("div#showContacts").show();
+
+        });
+
+        $("button#display_defaults").click(function() {
+
+            $("div#content").show();
+            $("div#showAbout").hide();
+            $("div#showContacts").hide();
+
+        });
+
+    });
+
+    </script>
+    </head>
+    <body>
+    
+         <!-- ======= Body Container ======= -->
+        <div id="body">
+
+            <div id="nav">
+        
+                    <div id="logo">
+                        <img src="css/logo.png" alt="NailsByNunu-Logo" />
+                    </div>
+            
+                    <div class="social-media">
+                        <img src="css/s/instagram.png" onclick="got_to_instagram();" alt="instagram">
+                        <img src="css/s/facebook.png" onclick="got_to_facebook();" alt="facebook">
+                    </div>
+            
+                    <div id="links"> 
+                        <a href="#showAbout" id="display_about">About</a> 
+                        <a href="#showAbout" id="display_about">Gallery</a> 
+                        <a href="#services">Services</a>
+                        <a href="#showAbout" id="display_about">Profile</a> 
+                        <a href="#showContacts" id="display_contacts">Contact</a> 
+                    </div>
+            
+            </div>
+                
+                <!-- ======= New Div The container ======= -->
+                <div id="newdiv">
+            
+                    <!-- ======= Default Content Section ======= -->
+                    <div id="content">
+                        <h1>
+                             Enjoy A Fine Dinning Experience
+                        </h1> 
+            
+                        <h4>The White Apron Events and Caterers</h4>
+                        <p>
+                            The White Apron Events and Caterers has innovative and varied menus, which allow us to cater for a variety of occasions. Since our inception, we have made our mark in the catering and allied service industry by providing efficient catering services
+                        </p>
+
+                    </div>
+                    <!-- ======= End Of Default Content Section ======= -->
+
+                    <!-- ======= About Section ======= -->
+                    <div id="showAbout">
+
+                        <div class="def-button">   
+                            <button id="display_defaults" class="download">Back</button>
+                        </div>
+                        
+                        <h2>The White Apron Events & Caterers</h2>
+                        <p>
+                            The White Apron Events and Caterers is a catering company that coordinates all food related aspects of your function, so that you are able to enjoy your special event. We are a professional team that you can rely on to make you a spectacular host. At The White Apron Events and Caterers, we are passionate about food making, thus providing you and your guests with a fine dinning experience at the venue of your choice.
+                        </p>
+
+                        <p>
+                            The White Apron Events and Caterers is a proudly South African 100% black owned company based in KwaZulu Natal . A dynamic team passionate for providing a professional, quality service in the catering and hiring industry.
+                        </p>
+
+                    </div>
+                     <!-- ======= End About Section ======= -->
+                    
+                    <!-- ======= Contact Section ======= -->
+                    <div id="showContacts">
+
+                        <div class="def-button">   
+                            <button id="display_defaults" class="download">Back</button>
+                        </div>
+                        
+                        <section id="contact" class="contact">
+                        <div class="contact-container">
+        
+                            <div class="row">
+
+                                <div class="inside-row">
+                                    <!-- <h3>Address :</h3> -->
+                                    <i class="bx bx-map"></i>
+                                    <p><a target="_blank" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"">NO. 21 Prarie Glenwood Pietermaritzburg 3201</a></p>
+                                </div>
+
+                                <div class="inside-row">
+                                    <!-- <h3>Email :</h3> -->
+                                    <i class="bx bx-envelope"></i>
+                                    <p><a href="mailto:service@nailsbynunu.co.za?subject=Feedback&body=message">service@thewhiteapron.co.za</a></p>
+                                </div>
+
+                                <div class="inside-row">
+                                    <!-- <h3>Call :</h3> -->
+                                    <i class="bx bx-phone-call"></i>
+                                    <p><a href="tel:078%078%7176">+27 78 078 7176</a></p>
+                                    <p><a href="tel:074%908%1760">+27 74 908 1760</a></p>
+                                    <p><a href="tel:061%158%851">+27 61 158 3851</a></p>
+                                </div>
+                            </div>
+        
+                            <!--<div class="row-iframe">
+        
+                                <h3>See Directions</h3>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+
+                            </div> -->
+        
+                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                
+                                <div class="form-row">
+                                        <h3>Send An Email Below :</h3>
+                                    
+                                    <div class="col form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                                    <div class="validate"></div>
+                                    </div>
+                                
+                                    <div class="col form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" data-rule="email" data-msg="Please enter a valid email" required />
+                                    <div class="validate"></div>
+                                    </div>
+                        
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Email Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
+                                    <div class="validate"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Type Your Message Here" required></textarea>
+                                    <div class="validate"></div>
+                                    </div>
+
+                                    <!-- <div class="mb-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div> -->
+                        
+                                    <div class="text-center">
+                                        <button class="download" type="submit">Send Message</button>
+                                    </div>
+
+                                </div>
+                            
+                            </form>
+                
+        
+                
+                        </div>
+                        </section>
+
+                    </div>
+                    <!-- ======= Contact Section ======= -->
+      
+                </div>
+                
+                <!-- ======= End Of New Div The container ======= -->
+            
+                <!-- ======= Box container ======= -->
+                <div id="box-container">
+
+                    <div class="box">
+                    <div class="icon-box">   
+                            <img src="css/s/E.png" alt="Fresh Fruit Platters"> 
+                            <h4 id=" ">Fresh Fruit Platters</h4>
+                            <button class="download">Read More</button>
+                        </div>
+                    </div>
+                        
+                    <div class="box">
+                    <div class="icon-box">   
+                            <img src="css/s/F.png" alt="Cheese Platters"> 
+                            <h4 id=" ">Cheese Platters</h4>
+                            <button class="download">Read More</button>
+                        </div>
+                    </div>
+                        
+                    <div class="box">
+                    <div class="icon-box">   
+                            <img src="css/s/A.png" alt="Sandwich Platters"> 
+                            <h4 id=" ">Sandwich Platters</h4>
+                            <button class="download">Read More</button>
+                        </div>
+                    </div>
+                
+                    <div class="box">
+                    <div class="icon-box">   
+                            <img src="css/s/B.png" alt="Sweeth-Tooth Platters"> 
+                            <h4 id=" ">Sweeth-Tooth Platters</h4>
+                            <button class="download">Read More</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ======= End Of Box container ======= -->
+                
+                <!-- ======= Last Div ======= -->
+                <div id="lastdiv">
+                <div id="services">
+
+                    <div id="visibleServices">
+                        <h2>Our Full House Combos</h2>
+                        <p>
+                            Our exciting full package combinations will make planning your special event an enjoyable experience as it lessens pressure. This is because our full house packages cover from the welcome drinks, starters, main course, dessert, serving stations, waiters, collection and delivery, and cleaning services.
+                        </p>
+                    </div>
+
+                    <div id="image-h"> 
+                        <img src="css/img/a.jpg" alt="image-pedicure"> 
+                        <img src="css/img/B.jpg" alt="image-manicure"> 
+                        <img src="css/img/C.jpeg" alt="image-nail-polish"> 
+                        <img src="css/img/D.jpg" alt="image-crylic-nails">  
+                    </div>
+
+                    <div id="def-button-more"  class="def-button">   
+                        <button id="getServices" class="download">
+                        <a href="#showServices">Read More</a>
+                        </button>
+                    </div>
+
+                    <div id="showServices">
+                        
+                        <h2>Our Full House Combos</h2>
+                        <p>
+                            Our exciting full package combinations will make planning your special event an enjoyable experience as it lessens pressure. This is because our full house packages cover from the welcome drinks, starters, main course, dessert, serving stations, waiters, collection and delivery, and cleaning services.
+                        </p>
+
+                        <p>
+                            Corporate functions, birthday celebrations, bridal or baby showers, unveiling services, memorial services and lot more events.
+                        </p>
+
+                        <p>
+                            Catering for 100 people will get you the following :
+                        </p>
+                            <li>100 chairs</li>
+                            <li>10 tables</li>
+                            <li>100 Crockery</li>
+                            <li>100 glasses</li>
+                            <li>2 serving stations</li>
+                            <li>Fresh flowers</li>
+                            <li>Table accessories</li>
+                            <li>Welcome drinks</li>
+                            <li>3 course lunch</li>
+                            <li>Serving of guests and Turf</li>
+                            <li>Free delivery</li>
+                            <li>Main table + accessories</p>
+
+                    </div>
+
+                    <div id="def-button-less" class="def-button">   
+                        <button id="lessServices" class="download">Read Less</button>
+                    </div>
+
+            
+                </div>
+                </div>
+                <!-- ======= End Of Last Div ======= -->
+
+             <!-- ======= Footer ======= -->
+            <div id="footer">
+            
+                    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> 
+
+                <div class="links">
+                    <a href="mailto:service@nailsbynunu.co.za?subject=Feedback&body=message">Send Feedback</a> |
+                    <a href="tel:0861%20100%20698">Call Now</a> |
+                    <a href="#showAbout" id="display_about">About</a> |
+                    <a href="#services">Services</a> |
+                    <a href="#showContacts" id="display_contacts">Contact</a> 
+                </div>
+                            
+                <br />
+                <p>
+                2020 &copy; <a href="index.html">The White Apron Events & Caterers</a>. 
+                <br /> 
+                | Developed by <a href="http://m.me/tdsgraphx" target="_blank">TDS Graphics</a>.
+                </p>
+            
+            </div>
+            <!-- ======= End Of Footer======= -->
+
+        </div>
+        <!-- ======= End Of Body Container ======= -->
+	
+    </body>
+</html>

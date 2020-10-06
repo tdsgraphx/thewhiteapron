@@ -1,0 +1,446 @@
+
+/*--------------------------------------------------------------
+# MOBILE STYLE
+--------------------------------------------------------------*/
+@media screen and (max-width:480px) {
+
+	body {
+		width:100%;
+		margin:0 auto;			
+	}
+
+	body, #newdiv, #lastdiv, #nav, #newdiv, #lastdiv, #main, #footer, #box-container, #box-container .box, #nav #links  {
+		width:100%;
+	}
+
+	body, #lastdiv, #nav, #nav #links, #newdiv, #lastdiv, #main, #footer {
+		float:left;
+	}
+
+	.social-media {
+		float:left;
+		width:40%;
+	}
+	
+	.social-media img {
+		width:20px;
+		margin:8px;
+		position:relative;
+		display:inline-block;
+	}
+
+	#nav #links  {
+		width:100%;
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+
+	#nav #links a {
+		text-align:center;
+		margin:10px;
+	}
+
+	#image-h img {
+		width:40%;
+	}
+
+	#box-container, #box-container .box  {
+		margin:10px;
+		width:80%;
+	}
+
+	form input {
+		height:40px;
+	}
+
+	form input, form textarea {
+		float:left;
+		width:80%;
+	}
+      
+	form textarea {
+	   height:90px;
+	}
+	
+}
+/*--------------------------------------------------------------
+# END OF MOBILE STYLE
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# DESKTOP STYLE
+--------------------------------------------------------------*/
+@media screen and (min-width:800px) { 
+
+	body {
+		width:70%;
+		margin:8px auto;
+		box-shadow:0 0 8px #888;
+		-webkit-box-shadow:0 0 5px #888;
+		-moz-box-shadow:0 0 5px #888;			
+	}
+
+	#body {
+		height:1200px;
+	}
+
+	#nav #logo img, #box-container .box, #nav #links a, .social-media img {
+		margin:10px;
+	}
+	
+	.social-media, #nav #links {
+		float:right;
+	}
+
+	.social-media {
+		padding:10px;
+	}
+	
+	.social-media img {
+		width:25px;
+		position:relative;
+		display:inline-block;
+	}
+
+	#content h1, #content h4, .box h4, #services h2,  #showAbout h2 {
+		text-align:center;
+	}
+
+	#newdiv, #lasdtdiv {
+		margin:2px auto;
+	}
+
+	#newdiv, #lasdtdiv, #image-h img {
+		float:left;
+	}
+
+	#image-h img {
+		width:22%;
+		height:120px;
+	}
+
+	#box-container {
+		width:100%;
+		margin:3px auto;
+	 }
+
+	#box-container .box {
+		width:19%;
+	}
+
+	form {
+		padding-left:25px;
+		padding-right:25px;
+	}
+   
+	form input {
+		width:30%;
+		height:40px;
+	}
+   
+	form textarea {
+	   width:45%;
+	   height:70px;
+	}
+}
+/*--------------------------------------------------------------
+# END OF DESKTOP STYLE
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# BODY CONTAINER
+--------------------------------------------------------------*/
+#body {
+	background-color:white;
+	font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";;
+}
+/*--------------------------------------------------------------
+# END OF BODY CONTAINER
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# NAVIGATION BAR
+--------------------------------------------------------------*/
+#nav {
+	height:auto;
+	margin-top:2px;
+	padding:6px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav #logo img {
+	width:100px;
+}
+
+#nav #logo img, #nav {
+	float:left;
+}
+
+.social-media   {
+	float:right;
+}
+
+.social-media img {
+	width:25px;
+}
+
+#nav #links a {
+	display:inline-block;
+	text-align:center;
+	font-weight:900;
+	font-size:18px;
+	margin:8px;
+}
+
+#nav #links a, #nav #links a:visited {
+	color:red;
+}
+
+#nav #links a , #nav #links a:visited, #nav #links a:active, #nav #links a:hover {	
+	text-decoration:none;
+}
+
+#nav #links a:active, #nav #links a:hover  {
+		color:orangered;
+}
+/*--------------------------------------------------------------
+# END OF NAVIGATION BAR
+--------------------------------------------------------------*/
+
+#content h1, #content h4, .box h4, #Services h2,  #showAbout h2 {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style:italic;
+}
+
+#content h1, #content h4, .box h4, #services h2, #content p, .box p, #services p, #showAbout h2,  #showAbout p {
+	padding:10px;
+}
+
+#content p, .box p, #services p, #showAbout h2,  #showAbout p, #footer {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.def-button {
+	width:100%;
+}
+
+.def-button #lessServices {
+	display:none;
+}
+/*--------------------------------------------------------------
+# BOX CONTAINER
+--------------------------------------------------------------*/
+
+#box-container .box {
+	background-color:red;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#box-container .box:hover {
+	background-color:orangered;
+}
+
+#box-container .box {
+	height:260px;
+	float:left;
+	margin-bottom:8px;
+	margin-top:8px;
+	padding:10px;
+	box-shadow:0 0 8px #888;
+	-webkit-box-shadow:0 0 5px #888;
+	-moz-box-shadow:0 0 5px #888;
+}
+
+button, .box .icon-box button, #services button, #box-container .box {
+	text-align: center;
+	color:white;
+	font-size:16px;
+}
+
+@media screen and (max-width:1000px) {
+
+	.box {
+		width:20%;
+		margin:4px;
+	}
+
+	#image-h img {
+		width:30%;
+	}
+}
+
+.icon-box img {
+     width:40px;
+     height:50px;
+     margin:10px;
+     position:relative;
+}
+
+button, .box .icon-box button, #services button {
+	background-color:orangered;
+	border-radius:4px;
+	border:orangered;
+	padding:10px;
+	margin:8px;
+}
+
+.download:hover, .box .icon-box button:hover, #services button:hover {
+	background-color:#fff;
+	color:orangered;
+}
+
+button a {
+	color:#fff;
+}
+
+button a, button a:hover {
+	text-decoration:none;
+}
+
+button a:hover {
+	color:orangered;
+}
+
+/*--------------------------------------------------------------
+#  END OF BOX CONTAINER
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# THE DIV CONTAINERS
+--------------------------------------------------------------*/
+#newdiv, #lastdiv {
+	height:auto;
+	font-size:16px;
+	background-color:red;
+	background-size:cover;
+}
+
+#nav, #newdiv, #lastdiv, #footer, #box-container {
+	width:100%;
+	color:white;
+	float:left;
+	transition:1.3s;
+}
+/*--------------------------------------------------------------
+# END OF THE DIV CONTAINERS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# SERVICES SECTION
+--------------------------------------------------------------*/
+#image-h {
+	width:100%;
+}
+
+#image-h img {
+	margin:8px;
+	border:2px solid orangered;
+}
+
+#image-h img:hover {
+	margin:8px;
+	border:2px solid white;
+	opacity:0.8;;
+}
+
+
+#showServices, #showAbout, #showContacts {
+	display:none;
+	padding:12px;
+}
+
+.def-button #getServices {
+	float:left;
+	margin:15px;
+}
+
+ #showAbout h2 {
+	width:100%;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style:italic;
+ }
+
+ #showContacts h3, #showContacts p, #showContacts i {
+	 text-align: center;
+ }
+
+ #showContacts i {
+	width:100%;
+	font-size:30px;
+	padding-top:14px;
+}
+
+ #showContacts p a {
+	font-weight:600;
+}
+
+ #showContacts p a, #showContacts p a:visited {
+	color:orangered;
+	text-decoration:none;
+}
+
+#showContacts p a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+/* 
+ .row-iframe {
+	 padding-left:50px auto;
+	 border:2px solid orangered;
+	 width:50%; 
+	 height:200px;
+	 float:left;
+ }  */
+
+ form input, form textarea {
+	font-size:14px;
+	border-radius:6px;
+	border: 3px solid orangered;
+	color:orangered;
+	background-color:#fff;
+	padding:10px;
+	margin:10px;
+	float:left;
+}
+/*--------------------------------------------------------------
+# END OF SERVICES SECTION
+--------------------------------------------------------------*/
+
+.back-to-top {
+	margin:30px;
+	font-size:40px;
+	color:#fff;
+}
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/	
+#footer {
+	background-color:orangered;
+	text-align:center;
+ 	padding-bottom:200px;
+ 	padding-top:50px;
+	color:#fff;
+	font-size:14px;
+ 	text-decoration:none;
+ 	float:left;
+}  
+
+#footer a, #footer a:visited {
+    text-decoration: none;
+    color:#fff;
+    margin:4px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color:red;
+}
+
+#footer .links, #footer p {
+    padding-bottom:12px;
+    margin:6px;
+}
+/*--------------------------------------------------------------
+# END OF FOOTER
+--------------------------------------------------------------*/
